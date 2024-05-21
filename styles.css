@@ -14,6 +14,16 @@
     margin-bottom: 42px;
 }
 
+#logoS{
+    display: flex;
+    width: 133px;
+    height: 47px;
+    padding: 0px 0.858px 0.87px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .center{
     margin-left: auto;
     margin-right: auto;
@@ -72,4 +82,14 @@
     background: #FFF;
     margin-top: 43px;
     margin-bottom: 238px;
+}
+
+#navBar{
+    display: flex;
+    width: 1280px;
+    padding: 25px 53px;
+    align-items: center;
+    gap: 329px;
+    border-bottom: 0.5px solid #000;
+    background: #FFF;
 }
