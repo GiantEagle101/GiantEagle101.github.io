@@ -1,3 +1,75 @@
-*::before::after{
+*{
     box-sizing: border-box;
+}
+
+#logoB{
+    display: flex;
+    width: 254px;
+    height: 92px;
+    padding: 0px 1.639px 1.704px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 205px;
+    margin-bottom: 42px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-input{
+    display: flex;
+    width: 456px;
+    height: 60px;
+    padding: 12px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 52px;
+    border: 1px solid #000;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.login-input:first-of-type{
+    margin-bottom: 16px;
+}
+
+.input-text{
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#forgot{
+    width: 138.948px;
+    height: 19px;
+    transform: rotate(0.14deg);
+    flex-shrink: 0;
+    color: #2C3337;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 10% 328.66px 56.25% ;
+}
+
+#sign-in{
+    display: flex;
+    width: 327px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 99px;
+    border: 1px solid #E5E5E3;
+    background: #FFF;
+    margin-top: 43px;
+    margin-bottom: 238px;
 }
