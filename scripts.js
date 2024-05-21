@@ -10,8 +10,3 @@ function userLogin(username, password){
         }
 
     }
-   
-
-function newItem(){
-    
-}
