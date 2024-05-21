@@ -11,10 +11,23 @@ function userLogin(username, password){
         } catch (error){
             console.log("wrong username or password, try again!", error.message);
         }
-loginButton.addEventListener("click")
+loginButton.addEventListener("click");{
+    const userName= username.value;
+    const passWord= password.value;
+
+    if (username==="user" && password=== "password"){
+        message("You are logged in");
+        location.reload;}
+
+    else {
+        errorMessage.style.opacity=1;
+    }
+}
+
+}
 
     
 
-    }
+    
 
 
