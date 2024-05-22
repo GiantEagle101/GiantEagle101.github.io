@@ -96,7 +96,7 @@
     line-height: 24px; /* 150% */
 }
 
-#sign-in:active, #confirm-send:active{
+#sign-in:active, #confirm-send:active, .home-button:active{
     background: var(--Gradient-Red, linear-gradient(180deg, #fd7b8a 0%, #ff5874 100%));
 }
 
