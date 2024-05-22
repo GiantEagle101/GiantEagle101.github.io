@@ -182,3 +182,7 @@ li > a {
     height: 374px;
     margin-top: 150px;
 }
+
+button:hover{
+    cursor: pointer;
+}

@@ -1,32 +1,31 @@
-const userLogin = (username, password) => {
-    try{ // catch errors for username and password during login 
-            let inputElement= document.getElementById('username-input');
-            let inputValue= inputElement.value;
-            let newMessage= document.createElement("div");
-            newMessage.textContent= inputValue;
-            console.log(newMessage.textContent);
-            const userName= username;
-            const passWord= password;
-            const errorMessage = error-message;
-        } catch (error){
-            console.log("wrong username or password, try again!", error.message);
-        }
-        const userName= username.value;
-        const passWord= password.value;
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+const loginButton = document.getElementById("sign-in");
+const loginInfo = new Map();
+loginInfo.set("irwin.jiang@gianteagle.com", "Password");
+loginInfo.set("Test@gianteagle.com", "Password1234");
 
-        if (username==="user" && password=== "password"){
-            message("You are logged in");
-            location.reload;}
-
-        else {
-            errorMessage.style.opacity=1;
+const login = () => {
+    const errorMessage = document.getElementById("error-message");
+    if(errorMessage){
+        errorMessage.parentNode.removeChild(errorMessage);
+    }
+    if(loginInfo.has(email.value)){
+        if(loginInfo.get(email.value) === password.value){
+            window.location.href="Home.html";
+            return;
         }
+    }
+    
+    const container = document.querySelector("#body-sign-in");
+    const HTMLString = `
+    <p id="error-message">Email or password is incorrect</p>
+    `
+    container.insertAdjacentHTML('beforeend', HTMLString);
+
 }
 
-loginButton.addEventListener("click", userLogin);
-
-    
-
+loginButton.addEventListener("click", login);
     
 
 
