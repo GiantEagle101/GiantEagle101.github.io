@@ -1,16 +1,16 @@
-function userLogin(username, password){
-    try{ // catch errors for username and password during login 
+//function userLogin(username, password){
+   // try{ // catch errors for username and password during login 
             //let inputElement= document.getElementById('username-input');
             //let inputValue= inputElement.value;
             //let newMessage= document.createElement("div");
             //newMessage.textContent= inputValue;
-            console.log(newMessage.textContent);
-            const login= new userLogin();
-            login.username= "username";
-            login.password= "password";
-            login.errorMessage= "error-message";
-        } catch (error){
-            console.log("wrong username or password, try again!", error.message);
+           // console.log(newMessage.textContent);
+            //const login= new userLogin();
+            //login.username= "username";
+           // login.password= "password";
+            //login.errorMessage= "error-message";
+       // } catch (error){
+            //console.log("wrong username or password, try again!", error.message);
         }
 loginButton.addEventListener("click");{
     const userName= username.value;
