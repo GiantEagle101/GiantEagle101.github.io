@@ -9,6 +9,7 @@ const login = () => {
     const errorMessage = document.getElementById("error-message");
     if(errorMessage){
         errorMessage.parentNode.removeChild(errorMessage);
+        
     }
     if(loginInfo.has(email.value)){
         if(loginInfo.get(email.value) === password.value){
@@ -17,15 +18,14 @@ const login = () => {
         }
     }
     
-    const container = document.querySelector("#body-sign-in");
     const HTMLString = `
     <p id="error-message">Email or password is incorrect</p>
     `
-    container.insertAdjacentHTML('beforeend', HTMLString);
+    loginButton.insertAdjacentHTML('afterend', HTMLString);
 
 }
 
 loginButton.addEventListener("click", login);
-    
+
 
 

@@ -81,7 +81,7 @@
     border: 1px solid #E5E5E3;
     background: #FFF;
     margin-top: 43px;
-    margin-bottom: 238px;
+    margin-bottom: 10px;
 }
 
 #navBar{
@@ -185,4 +185,10 @@ li > a {
 
 button:hover{
     cursor: pointer;
+}
+
+#error-message{
+    margin-left: 42.5%;
+    color: red;
+    font-size: 18px;
 }
