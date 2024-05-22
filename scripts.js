@@ -27,5 +27,3 @@ const login = () => {
 
 loginButton.addEventListener("click", login);
 
-
-
