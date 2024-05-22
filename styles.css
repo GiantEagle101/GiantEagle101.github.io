@@ -96,6 +96,10 @@
     line-height: 24px; /* 150% */
 }
 
+#sign-in:active, #confirm-send:active{
+    background: var(--Gradient-Red, linear-gradient(180deg, #fd7b8a 0%, #ff5874 100%));
+}
+
 #confirm-send{
     margin-top: -20px;
 }
