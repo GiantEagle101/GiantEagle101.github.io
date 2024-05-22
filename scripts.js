@@ -11,7 +11,7 @@ function userLogin(username, password){
         } catch (error){
             console.log("wrong username or password, try again!", error.message);
         }
-loginButton.addEventListener("click");{
+loginButton.addEventListener("click", () => {
     const userName= username.value;
     const passWord= password.value;
 
@@ -22,9 +22,7 @@ loginButton.addEventListener("click");{
     else {
         errorMessage.style.opacity=1;
     }
-}
-
-}
+});
 
     
 
