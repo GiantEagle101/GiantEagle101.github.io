@@ -8,10 +8,12 @@
     </head>
     <body id="body-sign-in">
         <img id="logoB" class="center" src="Images/Logo.svg">
-        <input type="email" class="login-input input-text center" id="email" placeholder="Email">
-        <input type="password" class="login-input input-text center" id="password" placeholder="Password">
-        <a href="ForgetPass.html" id="forgot">Forget Password?</a>
-        <button id="sign-in" class="center" type="button">Sign In</button>
+        <form>
+            <input type="email" class="login-input input-text center" id="email" placeholder="Email" required>
+            <input type="password" class="login-input input-text center" id="password" placeholder="Password" required>
+            <a href="ForgetPass.html" id="forgot">Forget Password?</a>
+            <button id="sign-in" class="center" type="submit">Sign In</button>
+        </form>
     </body>
     <script src="scripts.js"></script>
 </html>

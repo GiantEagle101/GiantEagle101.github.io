@@ -11,6 +11,11 @@ const login = () => {
         errorMessage.parentNode.removeChild(errorMessage);
         
     }
+    
+    if(email.value === "" || password.value === ""){
+        return;
+    }
+
     if(loginInfo.has(email.value)){
         if(loginInfo.get(email.value) === password.value){
             window.location.href="Home.html";
