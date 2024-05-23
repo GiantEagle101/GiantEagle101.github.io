@@ -440,7 +440,10 @@ body {
     height: 25px;
     overflow: hidden;
 }
-.edit {
+
+button.edit { 
+    background:none; 
+    border:none; 
     position: absolute;
     top: 184px;
     left: 1144px;
@@ -450,6 +453,7 @@ body {
     width: 30px;
     height: 13px;
 }
+
 .text {
     flex: 1;
     position: relative;
