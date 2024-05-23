@@ -112,6 +112,8 @@
     border-bottom: 0.5px solid #000;
     gap: 40%;
     background: #FFF;
+    
+    
 }
 
 nav > ul {
@@ -124,6 +126,7 @@ nav > ul {
     margin-block: 0;
     height: 100%;
     list-style-type: none;
+    
 }
 
 nav > ul > li:hover {
@@ -312,6 +315,53 @@ label{
 
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.form-grid {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px 10px; 
+    width: 80%;
+    max-width: 600px; 
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-label {
+    width: 150px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    height: 22px;
+}
+
+.form-input {
+    padding: 12px;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    color: #6c7275;
+    width: 275px; 
+}
+
+
 
 .account-setting-child {
     position: absolute;
@@ -356,7 +406,7 @@ label{
     left: 180px;
     font-size: 32px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 223px;
     height: 24px;
@@ -367,7 +417,7 @@ label{
     left: 154px;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 274px;
     height: 29px;
@@ -395,7 +445,7 @@ label{
     top: 184px;
     left: 1144px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 30px;
     height: 13px;
@@ -571,22 +621,13 @@ label{
     overflow: hidden;
     color: #2c3337;
 }
-.account-password {
-    position: absolute;
-    top: 289px;
-    left: 925px;
-    font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
-    display: inline-block;
-    width: 149px;
-    height: 22px;
-}
+
 .enable-notifications {
     position: absolute;
     top: 424px;
     left: 754px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 163px;
     height: 15px;
@@ -596,7 +637,7 @@ label{
     top: 482px;
     left: 754px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 262px;
     height: 12px;
@@ -606,7 +647,7 @@ label{
     top: 540px;
     left: 754px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 262px;
     height: 13px;
@@ -616,38 +657,12 @@ label{
     top: 596px;
     left: 754px;
     font-weight: 500;
-    font-family: 'ITC Avant Garde Gothic Std';
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     width: 262px;
     height: 12px;
 }
-.email {
-    position: absolute;
-    top: 202px;
-    left: 928px;
-    font-weight: 500;
-    display: inline-block;
-    width: 124px;
-    height: 22px;
-}
-.vendor-name1 {
-    position: absolute;
-    top: 202px;
-    left: 614px;
-    font-weight: 500;
-    display: inline-block;
-    width: 135px;
-    height: 22px;
-}
-.vendor-number {
-    position: absolute;
-    top: 289px;
-    left: 612px;
-    font-weight: 500;
-    display: inline-block;
-    width: 216px;
-    height: 22px;
-}
+
 .logo-icon {
     width: 133px;
     position: relative;
