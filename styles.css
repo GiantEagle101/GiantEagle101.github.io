@@ -203,6 +203,7 @@ li > a {
     margin-top: 150px;
 }
 
+
 button:hover{
     cursor: pointer;
 }
@@ -310,3 +311,419 @@ label{
     line-height: 24px; /* 150% */
 
 }
+
+
+.account-setting-child {
+    position: absolute;
+    top: 158px;
+    left: 81px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 428px;
+    height: 554px;
+}
+.account-setting-item {
+    position: absolute;
+    top: 265px;
+    left: 125px;
+    border-radius: 50%;
+    background-color: #e8e8e8;
+    width: 332px;
+    height: 318px;
+}
+.account-setting-inner {
+    position: absolute;
+    top: 311px;
+    left: 227px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    width: 128px;
+    height: 124px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 414px;
+    left: 204px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    width: 174px;
+    height: 139px;
+}
+.vendor-name {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 223px;
+    height: 24px;
+}
+.vendor-since-mmddyyyy {
+    position: absolute;
+    top: 639px;
+    left: 154px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 274px;
+    height: 29px;
+}
+.rectangle-div {
+    position: relative;
+    top: 158px;
+    left: 556px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 662px;
+    height: 554px;
+}
+.pen-icon {
+    position: absolute;
+    top: 178px;
+    left: 1174px;
+    width: 26px;
+    height: 25px;
+    overflow: hidden;
+}
+.edit {
+    position: absolute;
+    top: 184px;
+    left: 1144px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 30px;
+    height: 13px;
+}
+.text {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 8px;
+}
+.text-input {
+    position: absolute;
+    width: 19.53%;
+    top: calc(50% - 190px);
+    right: 32.81%;
+    left: 47.66%;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #6c7275;
+}
+.text-input1 {
+    position: absolute;
+    width: 19.53%;
+    top: calc(50% - 105px);
+    right: 32.97%;
+    left: 47.5%;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #6c7275;
+}
+.text-input2 {
+    position: absolute;
+    width: 19.53%;
+    top: calc(50% - 105px);
+    right: 8.91%;
+    left: 71.56%;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #6c7275;
+}
+.text-input3 {
+    position: absolute;
+    width: 19.53%;
+    top: calc(50% - 190px);
+    right: 8.91%;
+    left: 71.56%;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #6c7275;
+}
+.component-36rectangle-38-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.component-36rectangle-38 {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 55px;
+    height: 31px;
+}
+.on {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    font-weight: 500;
+    display: inline-block;
+}
+.component-36on {
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    width: 27px;
+    height: 17px;
+}
+.component-36off {
+    position: absolute;
+    top: 9px;
+    left: 65px;
+    width: 27px;
+    height: 17px;
+    color: #fff;
+}
+.component-37 {
+    position: absolute;
+    top: 474px;
+    left: 620px;
+    border-radius: 30px;
+    background-color: #c8102e;
+    width: 106px;
+    height: 35px;
+    overflow: hidden;
+    color: #2c3337;
+}
+.component-40 {
+    position: absolute;
+    top: 416px;
+    left: 623px;
+    border-radius: 30px;
+    background-color: #c8102e;
+    width: 106px;
+    height: 35px;
+    overflow: hidden;
+    color: #2c3337;
+}
+.component-38 {
+    position: absolute;
+    top: 532px;
+    left: 620px;
+    border-radius: 30px;
+    background-color: #c8102e;
+    width: 106px;
+    height: 35px;
+    overflow: hidden;
+    color: #2c3337;
+}
+.component-39 {
+    position: absolute;
+    top: 588px;
+    left: 620px;
+    border-radius: 30px;
+    background-color: #c8102e;
+    width: 106px;
+    height: 35px;
+    overflow: hidden;
+    color: #2c3337;
+}
+.account-password {
+    position: absolute;
+    top: 289px;
+    left: 925px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 149px;
+    height: 22px;
+}
+.enable-notifications {
+    position: absolute;
+    top: 424px;
+    left: 754px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 163px;
+    height: 15px;
+}
+.product-submission-notificatio {
+    position: absolute;
+    top: 482px;
+    left: 754px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 262px;
+    height: 12px;
+}
+.product-submission-notificatio1 {
+    position: absolute;
+    top: 540px;
+    left: 754px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+}
+.email-notifications {
+    position: absolute;
+    top: 596px;
+    left: 754px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    display: inline-block;
+    width: 262px;
+    height: 12px;
+}
+.email {
+    position: absolute;
+    top: 202px;
+    left: 928px;
+    font-weight: 500;
+    display: inline-block;
+    width: 124px;
+    height: 22px;
+}
+.vendor-name1 {
+    position: absolute;
+    top: 202px;
+    left: 614px;
+    font-weight: 500;
+    display: inline-block;
+    width: 135px;
+    height: 22px;
+}
+.vendor-number {
+    position: absolute;
+    top: 289px;
+    left: 612px;
+    font-weight: 500;
+    display: inline-block;
+    width: 216px;
+    height: 22px;
+}
+.logo-icon {
+    width: 133px;
+    position: relative;
+    height: 47px;
+}
+.item-status {
+    position: absolute;
+    top: 1px;
+    left: 143px;
+    font-weight: 500;
+    display: inline-block;
+    width: 134px;
+    height: 19px;
+}
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 73px;
+    height: 19px;
+}
+.account-setting1 {
+    position: absolute;
+    top: 1px;
+    left: 323px;
+    font-weight: 500;
+    display: inline-block;
+    width: 184px;
+    height: 20px;
+}
+.notification {
+    position: absolute;
+    top: 0px;
+    left: 567.1px;
+    font-weight: 500;
+    display: inline-block;
+    width: 135px;
+    height: 20.6px;
+    transform:  rotate(0.3deg);
+    transform-origin: 0 0;
+}
+.item-status-parent {
+    width: 702.1px;
+    position: relative;
+    height: 21.2px;
+}
+.logo-parent {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    background-color: #fff;
+    border-bottom: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 1280px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px 53px;
+    gap: 329px;
+    font-size: 24px;
+    color: #2c3337;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.account-setting {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+}
+
