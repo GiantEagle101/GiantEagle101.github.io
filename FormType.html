@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>New Item</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navBar">
+            <img id="logoS" class="center" src="Images/Logo.svg">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="">Item Status</a></li>
+                <li><a href="">Account Setting</a></li>
+                <li><a href="">Notification</a></li>
+            </ul>
+        </nav>
+        <h1 id="new-item-h1">Create New Item</h1>
+        <div id="select-container">
+            <div id="select1">
+                <label for="form-type">Type of Form</label>
+                <select id="form-type" name="form-options">
+                    <option value="warehouse" selected>Warehouse (WH)</option>
+                    <option value="dsd">Direct Store Service (DSD)</option>
+                    <option value="crossdeck">Cross Deck</option>
+                </select>
+            </div>
+            <div id="select2">
+                <label for="category-type">Categories</label>
+                <select id="category-type" name="category-options">
+                    <option value="seafood" selected>Seafood</option>
+                    <option value="meat">Meat</option>
+                    <option value="deli">Deli</option>
+                    <option value="center-store">Center Store</option>
+                </select>
+            </div>
+        </div>
+        <button id="form-submit" type="button">Submit</button>
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -234,3 +234,79 @@ button:hover{
     font-weight: 400;
     line-height: 24px; /* 160% */
 }
+
+#new-item-h1{
+    margin: 112px 70% 23px 7%;
+    width: 360px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+select{
+    display: block;
+        display: flex;
+    width: 291px;
+    padding: 16px 8px 16px 24px;
+    align-items: center;
+    gap: 10px;
+    background: var(--grayscale-gray-100-f-9-f-8-f-6, #F9F8F6);
+    color: var(--grayscale-gray-302-c-3337, #2C3337);
+    font-feature-settings: 'clig' off, 'liga' off;
+    flex: 1 0 0;
+    /* Heading/Heading | 24 */
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-top: 19px;
+}
+
+label{
+    width: 296px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "ITC Avant Garde Gothic Std";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#select-container{
+    display: flex;
+    justify-content: center;
+    gap: 297px;
+}
+
+#form-submit{
+    margin-top: 170px;
+    margin-bottom: 178px;
+    margin-left: 44%;
+        display: flex;
+    width: 155.5px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 99px;
+    background: var(--Gradient-Red, linear-gradient(180deg, #EA2139 0%, #C8102E 100%));
+    color: var(--grayscale-white-ffffff, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body/Bold | 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+
+}
