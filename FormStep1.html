@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Step 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navBar">
+            <img id="logoS" class="center" src="Images/Logo.svg">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="">Item Status</a></li>
+                <li><a href="AccSettings.Html">Account Setting</a></li>
+                <li><a href="">Notification</a></li>
+            </ul>
+        </nav>
+        <div id="status-bar">
+            <span class="circle">1</span>
+            <span class="line"></span>
+            <span class="circle">2</span>
+            <span class="line"></span>
+            <span class="circle">3</span>
+        </div>
+        <div id="status-labels-container">
+            <p class="status-labels">Vendor Details</p>
+            <p class="status-labels">Item Attributes</p>
+            <p class="status-labels">Review Details</p>
+        </div>
+        <div id="middle-group">
+            <span class="arrow-container">
+                <button class="foward-back" type="button"><img class="arrow-img" href="Images/arrow-right.svg"></button>
+                <p class="btn-text">Create New Item</p>
+            </span>
+            <span class="arrow-container">
+                <button class="foward-back" type="button"><img class="arrow-img" href="Images/arrow-right.svg"></button>
+                <p id="next" class="btn-text">Next</p>
+            </span>
+        </div>
+        <div id="bottom-group">
+            <p id="table-head">Vendor and Broker Information</p>
+            <div class="horizontal-line"></div>
+            <div id="vendor-info">
+                <div>
+                    <p class="info-text">Vendor Name<span class="asterisk">*</span></p>
+                    <input type="text" id="vendor-name" placeholder="Vendor Name" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Broker Name</p>
+                    <input type="text" id="broker-name" placeholder="Broker Name" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Broker Number</p>
+                    <input type="number" id="broker-number" placeholder="Broker Number" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Vendor Number<span class="asterisk">*</span></p>
+                    <input type="number" id="vendor-number" placeholder="Vendor number" class="info-input">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>
