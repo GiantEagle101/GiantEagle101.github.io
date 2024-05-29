@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Step 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navBar">
+            <img id="logoS" class="center" src="Images/Logo.svg">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Item-Status.html">Item Status</a></li>
+                <li><a href="AccSettings.Html">Account Setting</a></li>
+                <li><a href="">Notification</a></li>
+            </ul>
+        </nav>
+        <h1 id="item-status-title">Item Status</h1>
+        <input id="search" input="text" placeholder="Search Item">
+        <table>
+            <thead>
+                <tr id="head-row">
+                    <th>Item Name</th>
+                    <th>Item UPC</th>
+                    <th>Item Categories</th>
+                    <th>Date Submitted</th>
+                    <th>Date Edited</th>
+                    <th>Status</th>
+                    <th>Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Deli</td>
+                    <td>XXXXXXXXXXXXX</td>
+                    <td>Category 1</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>Approved <span class="tiny-circle green"></span></td>
+                    <td><a href="">View Form</a></td>
+                </tr>
+                <tr>
+                    <td>Seafood</td>
+                    <td>XXXXXXXXXXXXX</td>
+                    <td>Category 2</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>Denied <span class="tiny-circle red"></span></td>
+                    <td><a href="">View Form</a></td>
+                </tr>
+                <tr>
+                    <td>Meat</td>
+                    <td>XXXXXXXXXXXXX</td>
+                    <td>Category 3</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>Incomplete <span class="tiny-circle grey"></span></td>
+                    <td><a href="">View Form</a></td>
+                </tr>
+                <tr>
+                    <td>Meat</td>
+                    <td>XXXXXXXXXXXXX</td>
+                    <td>Category 4</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>MM/DD/YYYY</td>
+                    <td>In-Progress <span class="tiny-circle yellow"></span></td>
+                    <td><a href="">View Form</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <script src="scripts.js"></script>
+</html>
