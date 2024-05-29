@@ -996,3 +996,8 @@ td{
     margin-left: 84px;
     margin-bottom: 31px;
 }
+
+#btn{
+    text-decoration: none;
+    color: white;
+}
