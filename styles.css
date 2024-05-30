@@ -294,7 +294,7 @@ label{
     margin-top: 170px;
     margin-bottom: 178px;
     margin-left: 44%;
-        display: flex;
+    display: flex;
     width: 155.5px;
     padding: 12px 24px;
     justify-content: center;
@@ -810,6 +810,10 @@ button.edit {
     background-color: #79AD36;
 }
 
+.light-green{
+    background-color: #79AD36;
+}
+
 .status-labels{
     color: #2C3337;
     font-family: "ITC Avant Garde Gothic Std";
@@ -839,6 +843,9 @@ button.edit {
     margin-right: 62%;
 }
 
+#form-2{
+    margin-right: 290px;
+}
 
 .foward-back{
     border-radius: 80px;
@@ -873,7 +880,7 @@ button.edit {
     z-index: 2;
 }
 
-#bottom-group{
+.form-sections{
     width: 1139px;
     height: 353px;
     flex-shrink: 0;
@@ -881,7 +888,7 @@ button.edit {
     margin: 33px auto 77px auto;
 }
 
-#table-head{
+.table-head{
     width: 362px;
     height: 29px;
     flex-shrink: 0;
@@ -901,7 +908,7 @@ button.edit {
     background: #000;
 }
 
-#vendor-info{
+.sub-sections{
     display: flex;
     width: 914px;
     align-items: flex-start;
@@ -921,6 +928,7 @@ button.edit {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: -2px;
 }
 
 .asterisk{
@@ -1033,4 +1041,73 @@ td{
 #btn{
     text-decoration: none;
     color: white;
+}
+
+#form-title{
+    width: 400px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#section-1{
+    width: 1143px;
+    height: 542px;
+    flex-shrink: 0;
+}
+
+#section-2{
+    width: 1142.998px;
+    height: 374px;
+    flex-shrink: 0;
+}
+
+#list-cost, #list-cost-unit, #suggested-retail, #WHSL-cost, #slotting-amount{
+    width: 108px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+#section-3{
+    width: 1142.998px;
+    height: 445px;
+    flex-shrink: 0;
+}
+
+#section-4{
+    width: 1142.998px;
+    height: 262px;
+    flex-shrink: 0;
+}
+
+#section-5{
+    width: 1143px;
+    height: 565px;
+    flex-shrink: 0;
+}
+
+.shift-right, #weight{
+    margin-left: 623px;
+    
+}
+
+textarea{
+    width: 984px;
+    height: 100px;
+    flex-shrink: 0;
+    fill: var(--grayscale-white-ffffff, #FFF);
+    stroke-width: 1px;
+    stroke: #000;
+    border-radius: 5px;
+}
+
+#space{
+    height: 1px;
+
 }
