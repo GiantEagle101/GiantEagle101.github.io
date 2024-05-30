@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Step 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navBar">
+            <img id="logoS" class="center" src="Images/Logo.svg">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Item-Status.html">Item Status</a></li>
+                <li><a href="AccSettings.Html">Account Setting</a></li>
+                <li><a href="">Notification</a></li>
+            </ul>
+        </nav>
+        <div id="status-bar">
+            <span class="circle">1</span>
+            <span class="line light-green"></span>
+            <span class="circle light-green">2</span>
+            <span class="line"></span>
+            <span class="circle">3</span>
+        </div>
+        <div id="status-labels-container">
+            <p class="status-labels">Vendor Details</p>
+            <p class="status-labels">Item Attributes</p>
+            <p class="status-labels">Review Details</p>
+        </div>
+        <div id="middle-group">
+            <span class="arrow-container" id="form-2">
+                <a href="FormStep1.html"><button class="foward-back" type="button"><img class="arrow-img" href="Images/arrow-right.svg"></button></a>
+                <p class="btn-text">Previous</p>
+            </span>
+            <span id="form-title">Warehouse - Seafood</span>
+        </div>
+        <div class="form-sections" id="section-1">
+            <p class="table-head">Item Information</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">New Item Code</p>
+                    <input type="number" id="item-code" placeholder="New item Code" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Similar Item Code</p>
+                    <input type="number" id="item-code" placeholder="Similar item Code" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Item Description<span class="asterisk">*</span></p>
+                    <input type="text" id="item-description" placeholder="Atl Salmon Burger Spin Feta" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Product Type<span class="asterisk">*</span></p>
+                    <input type="text" id="product-type" placeholder="Everyday Item" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Brand Name</p>
+                    <input type="text" id="brand-name" placeholder="Black Pearl" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Case ID #<span class="asterisk">*</span></p>
+                    <input type="number" id="Case-ID" placeholder="10043823025031" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Size<span class="asterisk">*</span></p>
+                    <input type="number" id="brand-name" placeholder="10" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Replacement Item</p>
+                    <input type="number" id="replacement-code" placeholder="Replacement item code" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Manufactuer Code #<span class="asterisk">*</span></p>
+                    <input type="number" id="manufactuer-code" placeholder="2503" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Item UPC (13 digits)<span class="asterisk">*</span></p>
+                    <input type="number" id="item-upc" placeholder="04382302503" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Case UPC <span class="asterisk">*</span></p>
+                    <input type="number" id="case-upc" placeholder="04382302503" class="info-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-sections" id="section-2">
+            <p class="table-head">Sales and Distribution Details</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">List Cost<span class="asterisk">*</span></p>
+                    <input type="number" id="list-cost" placeholder="$45" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">List Cost/ Unit</p>
+                    <input type="number" id="list-cost-unit" placeholder="$45" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Suggested Retail<span class="asterisk">*</span></p>
+                    <input type="number" id="suggested-retail" placeholder="$45" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">WHSL cost</p>
+                    <input type="number" id="WHSL-cost" placeholder="$45" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Slotting amount</p>
+                    <input type="number" id="slotting-amount" placeholder="$45" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">First Ship Date (MM/DD/YYYY)<span class="asterisk">*</span></p>
+                    <input type="date" id="ship-date" placeholder="02/26/2024" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Order Increment<span class="asterisk">*</span></p>
+                    <input type="number" id="order-increment" placeholder="Case" class="info-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-sections" id="section-3">
+            <p class="table-head">Meat Perishable Attributes</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">Days from Pack</p>
+                    <input type="number" id="days-from-pack" placeholder="365" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Days Guaranteed upon Arrival</p>
+                    <input type="number" id="days-arrival" placeholder="180" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Pack Date or Sell By</p>
+                    <input type="number" id="sell-by" placeholder="Sell By" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Days Warning</p>
+                    <input type="number" id="days-warning" placeholder="New Item Code" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">BICEPS 02 Shelf Life</p>
+                    <input type="number" id="biceps" placeholder="180" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Retail Shelf Life</p>
+                    <input type="number" id="retail" placeholder="180" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Catch Weight</p>
+                    <input type="number" id="catch-weight" placeholder="180" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Leaker Allowance</p>
+                    <input type="number" id="leaker-allowance" placeholder="$0.00" class="info-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-sections" id="section-4">
+            <p class="table-head">If Item Has PLU</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">Tare Size</p>
+                    <input type="number" id="tare-size" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Wrapped Tare</p>
+                    <input type="number" id="wrapped-tare" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Unwrapped Tare</p>
+                    <input type="number" id="unwrapped-tare" placeholder="0" class="info-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-sections" id="section-5">
+            <p class="table-head">Master Pack</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">Master Packs</p>
+                    <input type="number" id="master-packs" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Cube<span class="asterisk">*</span></p>
+                    <input type="number" id="cube" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Length<span class="asterisk">*</span></p>
+                    <input type="number" id="length" placeholder="00.00" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Cube Adjusted Weight</p>
+                    <input type="number" id="cube-adjusted" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">TI<span class="asterisk">*</span></p>
+                    <input type="number" id="TI" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Width<span class="asterisk">*</span></p>
+                    <input type="number" id="width" placeholder="00.00" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">HI<span class="asterisk">*</span></p>
+                    <input type="number" id="HI" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Sample Provided<span class="asterisk">*</span></p>
+                    <input type="number" id="sample" placeholder="0" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Height<span class="asterisk">*</span></p>
+                    <input type="number" id="height" placeholder="00.00" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text shift-right">Weight<span class="asterisk">*</span></p>
+                    <input type="number" id="weight" placeholder="00.00" class="info-input">
+                </div>
+            </div>
+        </div>
+        <div class="form-sections" id="section-6">
+            <p class="table-head">Sales Representative Details</p>
+            <div class="horizontal-line"></div>
+            <div class="sub-sections">
+                <div>
+                    <p class="info-text">Signature</p>
+                    <input type="text" id="signature" placeholder="Text" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Phone</p>
+                    <input type="tel" id="phone" placeholder="123-456-7890" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Email</p>
+                    <input type="email" id="email" placeholder="irwin.jiang@gianteagle.com" class="info-input">
+                </div>
+                <div>
+                    <p class="info-text">Notes</p>
+                    <textarea placeholder="type here" id="notes"></textarea>
+                </div>
+            </div>
+            <a id="btn" href=""><button id="form-submit" type="button">Submit</button></a>
+            <div id="space"></div>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>
