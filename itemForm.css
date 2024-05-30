@@ -1,0 +1,1690 @@
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 571.5px);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 617px;
+}
+.rectangle-wrapper {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 571.5px);
+    width: 1143px;
+    height: 617px;
+}
+.deli-inner {
+    position: absolute;
+    top: 415px;
+    left: calc(50% - 566px);
+    width: 1143px;
+    height: 617px;
+}
+.deli-child {
+    position: absolute;
+    top: 497.5px;
+    left: calc(50% - 562.5px);
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 1140px;
+    height: 1px;
+}
+.deli-item {
+    position: absolute;
+    top: 555px;
+    left: 198px;
+    width: 916px;
+    height: 70px;
+}
+.line-icon {
+    position: absolute;
+    top: 1156px;
+    left: calc(50% - 568px);
+    width: 1143px;
+    height: 3px;
+    object-fit: contain;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 571.5px);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 374px;
+}
+.group-div {
+    position: absolute;
+    top: 1080px;
+    left: calc(50% - 568px);
+    width: 1143px;
+    height: 374px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 571.5px);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 565px;
+}
+.deli-inner1 {
+    position: absolute;
+    top: 2234px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 565px;
+}
+.deli-child1 {
+    position: absolute;
+    top: 2311px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 1.5px;
+    object-fit: contain;
+}
+.deli-child2 {
+    position: absolute;
+    top: 2931.95px;
+    left: calc(50% - 576px);
+    width: 1148px;
+    height: 0.5px;
+    object-fit: contain;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 574px);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1148px;
+    height: 461px;
+}
+.deli-inner2 {
+    position: absolute;
+    top: 2853px;
+    left: calc(50% - 576px);
+    width: 1148px;
+    height: 461px;
+}
+.item-information {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 206px;
+    height: 29px;
+}
+.item-information-wrapper {
+    position: absolute;
+    top: 443px;
+    left: 121px;
+    width: 206px;
+    height: 29px;
+    font-size: 24px;
+}
+.sales-and-distribution {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 391.4px;
+    height: 29px;
+}
+.sales-and-distribution-details-wrapper {
+    position: absolute;
+    top: 1107px;
+    left: 110.88px;
+    width: 391.4px;
+    height: 29px;
+    font-size: 24px;
+}
+.deli-child3 {
+    position: absolute;
+    top: 1574px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 3px;
+    object-fit: contain;
+}
+.deli-inner3 {
+    position: absolute;
+    top: 1498px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 374px;
+}
+.deli-perishable-attributes-wrapper {
+    position: absolute;
+    top: 1525px;
+    left: 104.88px;
+    width: 391.4px;
+    height: 29px;
+    font-size: 24px;
+}
+.master-pack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 363px;
+    height: 29px;
+}
+.master-pack-wrapper {
+    position: absolute;
+    top: 2260px;
+    left: 90px;
+    width: 363px;
+    height: 29px;
+    font-size: 24px;
+}
+.sales-representative-details {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    display: inline-block;
+    width: 397.6px;
+    height: 29px;
+}
+.sales-representative-details-wrapper {
+    position: absolute;
+    top: 2880px;
+    left: 90.29px;
+    width: 397.6px;
+    height: 29px;
+    font-size: 24px;
+}
+.logo-icon {
+    width: 133px;
+    position: relative;
+    height: 47px;
+}
+.item-status {
+    position: absolute;
+    top: 1px;
+    left: 143px;
+    font-weight: 500;
+    display: inline-block;
+    width: 134px;
+    height: 19px;
+}
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 73px;
+    height: 19px;
+}
+.account-setting {
+    position: absolute;
+    top: 1px;
+    left: 323.25px;
+    font-weight: 500;
+    display: inline-block;
+    width: 191px;
+    height: 20px;
+}
+.item-status-parent {
+    width: 514.3px;
+    position: relative;
+    height: 21px;
+}
+.notification {
+    width: 135px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    height: 20.6px;
+    flex-shrink: 0;
+    transform:  rotate(0.3deg);
+}
+.group-container {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 0px;
+    left: 681.5px;
+    border-radius: 50%;
+    background-color: #c8102e;
+    width: 25px;
+    height: 23px;
+}
+.frame-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 706.5px;
+    height: 37.2px;
+}
+.b {
+    position: absolute;
+    top: 4.12px;
+    left: 689.25px;
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    width: 11px;
+    height: 15px;
+}
+.group-parent {
+    width: 706.5px;
+    position: relative;
+    height: 37.2px;
+}
+.logo-parent {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    background-color: #fff;
+    border-bottom: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 1280px;
+    height: 117px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 53px;
+    gap: 329px;
+    font-size: 24px;
+    color: #2c3337;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.deli-child4 {
+    position: absolute;
+    top: 210px;
+    left: 199px;
+    width: 393px;
+    height: 1px;
+    object-fit: contain;
+}
+.deli-child5 {
+    position: absolute;
+    top: 211px;
+    left: 684px;
+    width: 393px;
+    height: 1px;
+    object-fit: contain;
+}
+.deli-child6 {
+    position: absolute;
+    top: 166px;
+    left: 108px;
+    border-radius: 50%;
+    background-color: #79ad36;
+    width: 91px;
+    height: 88px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 26px;
+    height: 44px;
+}
+.wrapper {
+    position: absolute;
+    top: 188px;
+    left: 140px;
+    width: 26px;
+    height: 44px;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.deli-child7 {
+    position: absolute;
+    top: 166px;
+    left: 592px;
+    border-radius: 50%;
+    background-color: #79ad36;
+    width: 91px;
+    height: 88px;
+}
+.container {
+    position: absolute;
+    top: 188px;
+    left: 624px;
+    width: 26px;
+    height: 44px;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.deli-child8 {
+    position: absolute;
+    top: 166px;
+    left: 1077px;
+    border-radius: 50%;
+    background-color: #d0d0d0;
+    width: 91px;
+    height: 88px;
+}
+.frame {
+    position: absolute;
+    top: 188px;
+    left: 1109px;
+    width: 26px;
+    height: 44px;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.vendor-details {
+    position: absolute;
+    top: 271px;
+    left: 101px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    color: #2c3337;
+    display: inline-block;
+    width: 117px;
+    height: 24px;
+}
+.item-attributes {
+    position: absolute;
+    top: 268px;
+    left: 578px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    color: #2c3337;
+    text-align: center;
+    display: inline-block;
+    width: 117px;
+    height: 24px;
+}
+.review-details {
+    position: absolute;
+    top: 269px;
+    left: 1064px;
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    color: #2c3337;
+    text-align: center;
+    display: inline-block;
+    width: 117px;
+    height: 24px;
+}
+.vendor-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 250px;
+    height: 22px;
+}
+.text {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+}
+.text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 8px;
+}
+.text-input {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 250px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #d0d0d0;
+}
+.primary-icon {
+    position: absolute;
+    top: 39.69px;
+    left: 214px;
+    width: 16px;
+    height: 16px;
+}
+.component-53 {
+    width: 275px;
+    position: relative;
+    height: 72px;
+}
+.rectangle-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.text3 {
+    position: absolute;
+    width: calc(100% - 32px);
+    top: 13.33%;
+    left: 16px;
+    line-height: 24px;
+    display: inline-block;
+}
+.frame-child {
+    position: absolute;
+    right: 5.76px;
+    bottom: 5.27px;
+    border-radius: 8px;
+    background-color: #000;
+    width: 1px;
+    height: 6px;
+    transform:  rotate(45deg);
+    transform-origin: 0 0;
+}
+.frame-item {
+    position: absolute;
+    right: 6.5px;
+    bottom: 4.4px;
+    border-radius: 8px;
+    background-color: #000;
+    width: 1px;
+    height: 10.6px;
+    transform:  rotate(45deg);
+    transform-origin: 0 0;
+}
+.rectangle-parent {
+    align-self: stretch;
+    position: relative;
+    height: 120px;
+}
+.label {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3b2b2b;
+    text-align: right;
+}
+.text-area {
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #d0d0d0;
+}
+.component-53-parent {
+    position: absolute;
+    top: 2933px;
+    left: 66px;
+    width: 1143px;
+    height: 381px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 25px 50px;
+}
+.span {
+    color: #ff0000;
+}
+.vendor-name5 {
+    width: 220px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    height: 22px;
+    flex-shrink: 0;
+}
+.text-wrapper2 {
+    width: 302px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 8px;
+    box-sizing: border-box;
+}
+.primary-icon5 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.text-input5 {
+    width: 350px;
+    border-radius: 52px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    color: #d0d0d0;
+}
+.component-43 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.icon-placeholder-main-2024 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.product-type {
+    position: relative;
+    line-height: 16px;
+}
+.core-dropdown-menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #f0eeeb;
+    width: 275px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    box-sizing: border-box;
+    gap: 4px;
+}
+.core-dropdown-menu-wrapper {
+    position: absolute;
+    top: 25.63px;
+    left: 0px;
+    width: 275px;
+    height: 50px;
+}
+.select-project-type-container {
+    position: absolute;
+    height: 26.32%;
+    width: 60.8%;
+    top: 0%;
+    left: 1.45%;
+    font-weight: 500;
+    display: inline-block;
+    color: #000;
+}
+.group-parent1 {
+    width: 275px;
+    position: relative;
+    height: 75.6px;
+    color: #2c3337;
+}
+.component-46 {
+    width: 250px;
+    position: relative;
+    height: 72px;
+}
+.component-44-child {
+    position: absolute;
+    height: 71.64%;
+    width: 112.04%;
+    top: 28.36%;
+    right: -12.04%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.primary-icon8 {
+    position: absolute;
+    height: 23.88%;
+    width: 14.81%;
+    top: 50.75%;
+    right: 6.48%;
+    bottom: 25.37%;
+    left: 78.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.size {
+    position: absolute;
+    height: 28.36%;
+    width: 214.81%;
+    top: -4.48%;
+    left: 0%;
+    font-weight: 500;
+    display: inline-block;
+}
+.component-441 {
+    position: absolute;
+    height: 100%;
+    width: 63.16%;
+    top: 0%;
+    right: 36.84%;
+    bottom: 0%;
+    left: 0%;
+}
+.group-child2 {
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: calc(50% - 25.5px);
+    border-radius: 30px;
+    background-color: #fff;
+    width: 51px;
+}
+.oz {
+    position: absolute;
+    height: 79.17%;
+    width: 68.63%;
+    top: 8.33%;
+    left: 15.69%;
+    font-weight: 500;
+    display: inline-block;
+}
+.primary-icon9 {
+    position: absolute;
+    height: 25%;
+    width: 19.61%;
+    top: 37.5%;
+    right: 21.57%;
+    bottom: 37.5%;
+    left: 58.82%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.rectangle-group {
+    position: absolute;
+    height: 35.82%;
+    top: 43.28%;
+    bottom: 20.9%;
+    left: calc(50% + 38.5px);
+    width: 51px;
+}
+.component-45 {
+    width: 171px;
+    position: relative;
+    height: 67px;
+}
+.component-49 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 275px;
+    height: 72px;
+}
+.div4 {
+    position: absolute;
+    top: 35.69px;
+    left: 255px;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    width: 34px;
+    height: 36px;
+}
+.component-49-parent {
+    width: 289px;
+    position: relative;
+    height: 72px;
+}
+.div5 {
+    position: absolute;
+    top: 34.69px;
+    left: 258px;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    width: 34px;
+    height: 36px;
+}
+.component-48-parent {
+    width: 292px;
+    position: relative;
+    height: 72px;
+}
+.component-47 {
+    width: 250px;
+    position: relative;
+    height: 90px;
+}
+.component-38-parent {
+    position: absolute;
+    top: 498px;
+    left: 76px;
+    width: 1140px;
+    height: 534px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 25px 50px;
+}
+.span7 {
+    color: #000;
+}
+.div6 {
+    position: absolute;
+    height: 29.85%;
+    width: 69.44%;
+    top: 46.27%;
+    left: 16.67%;
+    font-size: 20px;
+    display: inline-block;
+    color: #d0d0d0;
+}
+.component-411 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 108px;
+    height: 67px;
+}
+.component-41-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    width: 108px;
+    height: 67px;
+}
+.div7 {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 15px;
+    height: 23px;
+}
+.group-parent3 {
+    width: 129px;
+    position: relative;
+    height: 67px;
+}
+.component-41-child2 {
+    position: absolute;
+    height: 71.67%;
+    width: 112.04%;
+    top: 28.36%;
+    right: -12.04%;
+    bottom: -0.02%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.primary-icon19 {
+    position: absolute;
+    height: 23.89%;
+    width: 14.81%;
+    top: 50.75%;
+    right: 6.48%;
+    bottom: 25.36%;
+    left: 78.7%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.size5 {
+    position: absolute;
+    height: 28.33%;
+    width: 214.81%;
+    top: -4.48%;
+    left: 0%;
+    font-weight: 500;
+    display: inline-block;
+}
+.div14 {
+    position: absolute;
+    height: 29.86%;
+    width: 69.44%;
+    top: 46.27%;
+    left: 16.67%;
+    font-size: 20px;
+    display: inline-block;
+    color: #d0d0d0;
+}
+.component-41-wrapper2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 108px;
+    height: 72px;
+}
+.group-wrapper {
+    width: 108px;
+    position: relative;
+    height: 72px;
+}
+.component-56 {
+    width: 263px;
+    position: relative;
+    height: 72px;
+}
+.group-parent2 {
+    position: absolute;
+    top: 1157px;
+    left: 74px;
+    width: 1140px;
+    height: 297px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 25px 50px;
+}
+.component-57 {
+    width: 108px;
+    position: relative;
+    height: 67px;
+}
+.div16 {
+    position: absolute;
+    height: 29.85%;
+    width: 69.44%;
+    top: 46.27%;
+    left: 16.67%;
+    font-size: 20px;
+    font-family: Inter;
+    color: #d0d0d0;
+    display: inline-block;
+}
+.component-58 {
+    width: 108px;
+    position: relative;
+    height: 67px;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.component-416 {
+    position: absolute;
+    height: 100%;
+    width: 70.59%;
+    top: 0%;
+    right: 29.41%;
+    bottom: 0%;
+    left: 0%;
+}
+.oz1 {
+    position: absolute;
+    height: 37.31%;
+    width: 25.49%;
+    top: 44.78%;
+    left: 84.97%;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+.component-41-parent {
+    width: 153px;
+    position: relative;
+    height: 67px;
+}
+.ti {
+    font-weight: 500;
+}
+.span18 {
+    font-weight: 500;
+    font-family: 'ITC Avant Garde Gothic Std';
+    color: #ff0000;
+}
+.size9 {
+    position: absolute;
+    height: 28.36%;
+    width: 214.81%;
+    top: -4.48%;
+    left: 0%;
+    display: inline-block;
+}
+.span20 {
+    color: #ff0404;
+}
+.component-61-child {
+    position: absolute;
+    height: 71.64%;
+    width: 100%;
+    top: 28.36%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.yesno {
+    position: absolute;
+    height: 29.85%;
+    width: 69.44%;
+    top: 46.27%;
+    left: 16.67%;
+    font-size: 20px;
+    color: #d0d0d0;
+    display: inline-block;
+}
+.component-57-parent {
+    width: 386px;
+    height: 487px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px 50px;
+}
+.component-43-child {
+    position: absolute;
+    height: 60.76%;
+    width: 34.5%;
+    top: 39.24%;
+    right: 65.5%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.primary-icon29 {
+    position: absolute;
+    height: 20.25%;
+    width: 5.11%;
+    top: 59.49%;
+    right: 70.93%;
+    bottom: 20.25%;
+    left: 23.96%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.component-43-item {
+    position: absolute;
+    height: 60.76%;
+    width: 34.5%;
+    top: 39.24%;
+    right: 22.04%;
+    bottom: 0%;
+    left: 43.45%;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.div22 {
+    position: absolute;
+    height: 32.91%;
+    width: 7.67%;
+    top: 67.09%;
+    left: 38.02%;
+    display: inline-block;
+}
+.in {
+    position: absolute;
+    height: 31.65%;
+    width: 11.5%;
+    top: 68.35%;
+    left: 78.91%;
+    display: inline-block;
+}
+.width {
+    position: absolute;
+    height: 24.05%;
+    width: 63.9%;
+    top: 11.39%;
+    left: 0%;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+.div23 {
+    position: absolute;
+    height: 24.05%;
+    width: 9.27%;
+    top: 54.43%;
+    left: 5.75%;
+    color: #d0d0d0;
+    display: inline-block;
+}
+.div24 {
+    position: absolute;
+    height: 24.05%;
+    width: 9.27%;
+    top: 54.43%;
+    left: 49.2%;
+    color: #d0d0d0;
+    display: inline-block;
+}
+.primary-icon30 {
+    position: absolute;
+    height: 20.25%;
+    width: 5.11%;
+    top: 58.23%;
+    right: 27.48%;
+    bottom: 21.52%;
+    left: 67.41%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.component-431 {
+    width: 313px;
+    position: relative;
+    height: 79px;
+}
+.span24 {
+    color: #ff1616;
+}
+.component-43-parent {
+    width: 380px;
+    height: 479px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    font-size: 20px;
+}
+.frame-group {
+    position: absolute;
+    top: 2312px;
+    left: 69px;
+    width: 1137px;
+    height: 487px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.component-381 {
+    position: absolute;
+    top: 64.5px;
+    left: 50px;
+    width: 275px;
+    height: 72px;
+}
+.component-611 {
+    position: absolute;
+    top: 64px;
+    left: 350px;
+    width: 275px;
+    height: 72px;
+}
+.component-64 {
+    position: absolute;
+    top: 64px;
+    left: 675px;
+    width: 275px;
+    height: 72px;
+}
+.component-62 {
+    position: absolute;
+    top: 161.5px;
+    left: 50px;
+    width: 250px;
+    height: 72px;
+}
+.component-63 {
+    position: absolute;
+    top: 161.5px;
+    left: 350px;
+    width: 275px;
+    height: 72px;
+}
+.component-65 {
+    position: absolute;
+    top: 161.5px;
+    left: 675px;
+    width: 275px;
+    height: 72px;
+}
+.component-38-group {
+    position: absolute;
+    top: 1574px;
+    left: 66px;
+    width: 1143px;
+    height: 298px;
+}
+.deli-child9 {
+    position: absolute;
+    top: 1998px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 3px;
+    object-fit: contain;
+}
+.group-child3 {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 571.5px);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1143px;
+    height: 262px;
+}
+.deli-inner4 {
+    position: absolute;
+    top: 1922px;
+    left: calc(50% - 574px);
+    width: 1143px;
+    height: 262px;
+}
+.if-item-has-plu-wrapper {
+    position: absolute;
+    top: 1949px;
+    left: 104.88px;
+    width: 391.4px;
+    height: 29px;
+    font-size: 24px;
+}
+.component-66-parent {
+    position: absolute;
+    top: 2001px;
+    left: 64px;
+    width: 1145px;
+    height: 183px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 50px;
+}
+.arrow-right-icon {
+    width: 14px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.button-icon {
+    width: 48px;
+    border-radius: 80px;
+    background: linear-gradient(180deg, #ea2139, #c8102e);
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.previous {
+    width: 213px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    height: 19px;
+    flex-shrink: 0;
+}
+.component-40 {
+    width: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+.warehouse-deli {
+    width: 326px;
+    position: relative;
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+    height: 42px;
+    flex-shrink: 0;
+}
+.left-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.primary-icon45 {
+    width: 15.5px;
+    position: relative;
+    height: 13px;
+}
+.text24 {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 0%;
+    line-height: 24px;
+}
+.text-wrapper20 {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 12px);
+    right: 0%;
+    left: 0%;
+    height: 24px;
+}
+.button-text-inner {
+    width: 69px;
+    position: relative;
+    height: 24px;
+}
+.button-text {
+    width: 155.5px;
+    border-radius: 99px;
+    background-color: #fff;
+    border: 1px solid #613f3f;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    gap: 8px;
+    font-size: 16px;
+    color: #2c3337;
+}
+.component-40-parent {
+    position: absolute;
+    top: 330px;
+    left: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 255px;
+    text-align: center;
+    font-size: 20px;
+}
+.text25 {
+    position: relative;
+    line-height: 24px;
+}
+.button-text1 {
+    position: absolute;
+    top: 3400px;
+    left: calc(50% - 78px);
+    border-radius: 99px;
+    background-color: #fff;
+    border: 1px solid #e5e5e3;
+    box-sizing: border-box;
+    width: 155.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    text-align: center;
+    color: #2c3337;
+}
+.deli {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3613px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+}
+
+
+.header1 {
+    flex: 1;
+    position: relative;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.checkbox1 {
+    width: 20px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #d0d0d0;
+    border: 1px solid #b7b9bc;
+    box-sizing: border-box;
+    height: 20px;
+}
+.checkbox-unselected-default {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.text26 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.checkbox {
+    flex: 1;
+    height: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 7;
+}
+.row1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+.row2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+.row3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.row4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.row5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.row6 {
+    align-self: stretch;
+    height: 24px;
+    z-index: 1;
+}
+.text-link-child {
+    width: 74px;
+    height: 16px;
+}
+.text-link {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.rows {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-family: Inter;
+}
+.side-filters-checkbox-list {
+    width: 216px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.side-filters-checkbox-list-parent {
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 35px 26px;
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: left;
+    font-size: 14px;
+    color: #2c3337;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.popup-overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset: 0;
+}
+
+.header1 {
+    flex: 1;
+    position: relative;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.checkbox1 {
+    width: 20px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #d0d0d0;
+    border: 1px solid #b7b9bc;
+    box-sizing: border-box;
+    height: 20px;
+}
+.checkbox-unselected-default {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.text26 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.checkbox {
+    flex: 1;
+    height: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 7;
+}
+.row1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+.row2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+.row3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.row4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.row5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.row6 {
+    align-self: stretch;
+    height: 24px;
+    z-index: 1;
+}
+.text-link-child {
+    width: 74px;
+    height: 16px;
+}
+.text-link {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.rows {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-family: Inter;
+}
+.side-filters-checkbox-list {
+    width: 216px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.side-filters-checkbox-list-parent {
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 35px 26px;
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: left;
+    font-size: 14px;
+    color: #2c3337;
+    font-family: 'ITC Avant Garde Gothic Std';
+}
+
