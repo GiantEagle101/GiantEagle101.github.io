@@ -70,7 +70,7 @@
     margin: 10px 10% 328.66px 56.25% ;
 }
 
-#sign-in, #confirm-send{
+#sign-in, #confirm-send, #create-new, #check-status{
     display: flex;
     width: 327px;
     padding: 12px 24px;
@@ -1038,7 +1038,7 @@ td{
     margin-bottom: 31px;
 }
 
-#btn{
+#btn, .none{
     text-decoration: none;
     color: white;
 }
@@ -1110,4 +1110,34 @@ textarea{
 #space{
     height: 1px;
 
+}
+
+.closing-msg{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.closing-msg:first-of-type{
+    margin-top: 25px;
+}
+#step3-section{
+    width: 1149px;
+    height: 252px;
+    flex-shrink: 0;
+}
+
+.no-gap{
+    gap: 0px;
+}
+
+#btn-container{
+    display:flex;
+    margin-left: 350px;
+    gap: 113px;
+    margin-top: -50px;
 }
