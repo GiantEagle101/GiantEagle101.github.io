@@ -12,6 +12,10 @@ const login = () => {
         
     }
     if(email.value === "" || password.value === ""){
+        const HTMLString = `
+        <p id="error-message">No login info found</p>
+        `
+        loginButton.insertAdjacentHTML('afterend', HTMLString);
         return;
     }
     
@@ -27,6 +31,8 @@ const login = () => {
     `
     loginButton.insertAdjacentHTML('afterend', HTMLString);
 
+    email.value = "";
+    password.value = "";
 }
 
 loginButton.addEventListener("click", login);
